@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mut">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="378dp"
+        android:layout_height="370dp"
+        android:text="Mutanabbi Street (Arabic: شارع المتنبي) is located in Baghdad, Iraq, near the old quarter of Baghdad; at Al Rasheed Street.[1] It is the historic center of Baghdad bookselling, a street filled with bookstores and outdoor book stalls. It was named after the 10th-century classical Iraqi poet Al‑Mutanabbi. This street is well established for bookselling and has often been referred to as the heart and soul of the Baghdad literacy and intellectual community."
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955"
+        tools:text="Mutanabbi Street (Arabic: شارع المتنبي) is located in Baghdad, Iraq, near the old quarter of Baghdad; at Al Rasheed Street.[1] It is the historic center of Baghdad bookselling, a street filled with bookstores and outdoor book stalls. It was named after the 10th-century classical Iraqi poet Al‑Mutanabbi. This street is well established for bookselling and has often been referred to as the heart and soul of the Baghdad literacy and intellectual community." />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="417dp"
+        android:layout_height="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/v" />
+</androidx.constraintlayout.widget.ConstraintLayout>
